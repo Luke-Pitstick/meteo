@@ -232,17 +232,6 @@ checkqa-mypy = ["mypy (==v0.761)"]
 testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xmlschema"]
 
 [[package]]
-name = "python-dotenv"
-version = "0.21.0"
-description = "Read key-value pairs from a .env file and set them as environment variables"
-category = "main"
-optional = false
-python-versions = ">=3.7"
-
-[package.extras]
-cli = ["click (>=5.0)"]
-
-[[package]]
 name = "rfc3986"
 version = "1.5.0"
 description = "Validating URI References per RFC 3986"
@@ -326,7 +315,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "2fdae5ce287762f654eecb45d919d198180c94af84f8f280c5f1466e353751e1"
+content-hash = "4d723ec1c46a2fccd76a807faeb56056adc9202ba70ae121a414ead26959679d"
 
 [metadata.files]
 anyio = []
@@ -349,7 +338,6 @@ pycodestyle = []
 pygments = []
 pyparsing = []
 pytest = []
-python-dotenv = []
 rfc3986 = []
 rich = []
 shellingham = []

@@ -3,13 +3,18 @@ name = "meteo"
 version = "0.1.0"
 description = ""
 authors = ["Luke Pitstick <lukepitstick06@gmail.com>"]
+packages = [
+    { include = "meteo" },
+]
+
+[tool.poetry.scripts]
+meteo = "meteo.main:app"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 typer = {extras = ["all"], version = "^0.6.1"}
 httpx = "^0.23.0"
 rich = "^12.5.1"
-python-dotenv = "^0.21.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
