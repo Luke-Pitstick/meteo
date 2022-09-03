@@ -1,2 +1,5 @@
-.DS_Store
 tests/
+.env
+test.py
+__pycache__/
+.vscode/
