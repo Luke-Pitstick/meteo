@@ -6,9 +6,14 @@ authors = ["Luke Pitstick <lukepitstick06@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+typer = {extras = ["all"], version = "^0.6.1"}
+httpx = "^0.23.0"
+rich = "^12.5.1"
+python-dotenv = "^0.21.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+autopep8 = "^1.7.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
