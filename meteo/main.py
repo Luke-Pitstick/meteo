@@ -135,7 +135,8 @@ def getFormattedWeather(weatherData: dict) -> str:
     
     return f"""
 {weatherIcons[icon]}
-    
+
+City: {config["CITY"]}
 Weather: {description}, {temp}°{units[0]}, {prcpChance}% chance of rain, {windspeed} {units[1]} {windDirection}°, {pressure}hPa
 Timezone: {timezone}
 Sunrise: {sunrise} | Sunset: {sunset}
